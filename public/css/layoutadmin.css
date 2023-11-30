@@ -1,0 +1,48 @@
+:root{
+    --base-col: #1aacac;
+    --base-hov-col: #128a8a; 
+    --base-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.custom-bg-sidebar {
+    background-color: var(--base-col);
+    font-weight: bold;
+}
+
+.nav-item {
+    width: 200px;
+    padding-left: 10px;
+}
+
+.nav-item:hover {
+    background-color: var(--base-hov-col);
+    transform: scale(1.1);
+}
+
+.custom-menu-sidebar {
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+.custom-menu-sidebar:hover, .edit-btn, .edit-btn:hover {
+    color: #fff;
+}
+
+.table {
+    margin-top: 30px;
+}
+
+.table thead {
+    font-weight: bold;
+}
+
+a:active {
+    color: #fff;
+}
+
+.set-val-input {
+    width: 100px;
+}
